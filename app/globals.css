@@ -10,6 +10,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --breakpoint-xs: 30rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,4 +34,10 @@ input[type="number"]::-webkit-inner-spin-button {
 
 input[type="number"] {
   appearance: textfield;
+}
+
+.image{
+  background-image: url("https://c8.alamy.com/comp/2WM08HP/prioritizing-tasks-concept-confident-woman-with-checklist-marking-top-priorities-efficient-workflow-organization-task-management-and-optimization-flat-vector-illustration-2WM08HP.jpg");
+object-fit: contain;
+  opacity: 1;
 }

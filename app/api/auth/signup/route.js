@@ -42,3 +42,5 @@ export async function POST(request) {
 
     return response
 }
+
+// mongodb+srv://hardurohit_db_user:QcaSbjS1iyA0md7h@cluster0.2hmtfqi.mongodb.net/

@@ -52,9 +52,9 @@ const data = await res.json()
   
   return (<>
   <div className='bg-gray-100 min-h-screen flex justify-center items-center'>
-    <div className='bg-white h-[70vh] w-[50vw] shadow-lg flex flex-col justify-center items-center gap-5'>
-        <input type="number" onChange={handleChange} value={form.number} name='number' id='number' className='bg-gray-100 px-4 py-1 rounded-lg w-1/2 h-10 outline' placeholder='Enter your number' />
-        <input type="text" onChange={handleChange} value={form.password} name='password' id='password' className='bg-gray-100 px-4 py-1 rounded-lg w-1/2 h-10 outline' placeholder='Enter your password' />
+    <div className='bg-white h-[70vh] w-[90vw] md:w-[50vw] shadow-lg flex flex-col justify-center items-center gap-5'>
+        <input type="number" onChange={handleChange} value={form.number} name='number' id='number' className='bg-gray-100 px-4 py-1 rounded-lg w-[80%] sm:w-2/3 md:w-1/2 h-10 outline' placeholder='Enter your number' />
+        <input type="text" onChange={handleChange} value={form.password} name='password' id='password' className='bg-gray-100 px-4 py-1 rounded-lg w-[80%] sm:w-2/3 md:w-1/2 h-10 outline' placeholder='Enter your password' />
         <button onClick={submit} className="px-8 py-2 bg-green-400 rounded-full cursor-pointer font-semibold">Login</button>
         <Link href={"/signup"}><div className='text-blue-400 cursor-pointer my-5'>New User? Signup</div></Link>
     </div>
